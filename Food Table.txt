@@ -1,0 +1,84 @@
+User will view all of these items (including price)
+User can select multiple items from each category.
+
+Create table Rice_Item (
+Item_no int not null, Item_Name varchar (30), Price double);
+insert into Rice_Item values
+(1, 'Shahi Mutton Kacchi Biriyani (Bashmoti / Chinigura)',280), 
+(2, 'Shahi Chicken Kacchi Biriyani (Basmoti / Chinigura)',250),
+(3, 'Shahi Chicken Pulao',200),
+(4, 'Bresta Pulao/ Green Pea Pulao/ Kopta Pulao',120),
+(5, 'Shahi Tehari (Beef/Mutton)',220),
+(6, 'Bhuna Khichuri ',150);
+
+Create table Meat_Item (
+Item_no int not null, Item_Name varchar (30), Price double);
+
+insert into Meat_Item values
+(1,'Chicken Roast',120), 
+(2, 'Whole chicken roast',300),
+(3, 'Roasted Leg of Lamb ',300),
+(4, 'Mutton Rezala ',170),
+(5, 'Beef Rezala',160),
+(6, 'Chicken Tandoori',120),
+(7, 'Chicken Korma', 130),
+(8,'Beef Kaliya / Mazbani ',200);
+
+Create table Vegetables (
+Item_no int not null, Item_Name varchar (30), Price double);
+
+insert into Vegetables values
+(1,'Egg Korma',100),
+(2,'Chinese Vegetables',70),
+(3,'Kopta Curry',50),
+(4,'Chicken Madraji Curry',60),
+(5,'Alo Bokhra Chatni',30),
+(6,'Basil Chutney',20),
+(7,'Chutney',20);
+
+Create table Kabab_Item (
+Item_no int not null, Item_Name varchar (30), Price double);
+
+insert into Kabab_item values
+(1,'Jali Kabab',50),
+(2,'Shame Kabab',60),
+(3,'Tikka Kabab',60),
+(4,'Boti Kabab',100);
+
+Create table Dessert_Item (
+Item_no int not null, Item_Name varchar (30), Price double);
+
+insert into Dessert_Item values
+(1,'Shahi Firni',30),
+(2,'Shahi Zarda',50),
+(3,'Sweet Balls dish',100),
+(4,'Yoghurt (cup)',35),
+(5,'Gulapjam piece',30),
+(6,'Pudding',100),
+(7,'Fruit Custard',100),
+(8,'Faluda',120);
+
+Create table Salad(
+Item_no int not null, Item_Name varchar (30), Price double);
+
+insert into Salad values
+(1,'Salad (3 piece)',5),
+(2,'Cocktail salad ',20),
+(3,'Chicken Cashew Nut Salad',80);
+
+Create table Others(
+Item_no int not null, Item_Name varchar (30), Price double);
+
+insert into Others values
+(1, 'Cream curd borhani made with mineral water',50),
+(2, 'Badam Sarbat',80),
+(3, 'Mineral water 500 ml',15),
+(4, 'Soft drink',20),
+(5, 'Juice',60),
+(6, 'Coffee Expresso',50),
+(7, 'Shahi Betel leaf',20),
+(8, 'Special Betel Leaf',35);
+
+
+
+
